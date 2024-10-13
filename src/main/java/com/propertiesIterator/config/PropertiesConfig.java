@@ -15,7 +15,7 @@ import lombok.Setter;
 @EnableConfigurationProperties
 @Getter
 @Setter
-@ConfigurationProperties(prefix="eis")
+@ConfigurationProperties(prefix="astute")
 public class PropertiesConfig {
 	private final List<CyberArkCredentials> cyberArkCredentials =new ArrayList<>();
 	@Data
